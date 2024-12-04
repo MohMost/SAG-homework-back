@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+pnpm-lock.yaml
+
+# local env files
+.env*.local
