@@ -1,7 +1,15 @@
 {
-	"dependencies": {
-		"npm": "^10.9.1",
-		"express": "^4.21.1",
-		"cors": "^2.8.5"
-	}
+  "name": "sag-backend",
+  "version": "1.0.0",
+  "description": "Book search API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "npm": "^10.9.1",
+    "express": "^4.21.1",
+    "cors": "^2.8.5"
+  }
 }
