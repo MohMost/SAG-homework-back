@@ -5,7 +5,7 @@ import router from "./routes/booksRoute.js";
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("copy this to text https://sag-assignment-front.vercel.app/search?q=harry+potter");
 });
 app.use(
   cors({
