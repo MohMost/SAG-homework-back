@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 });
 app.use(
   cors({
-    origin: "https://sag-assignment-back.onrender.com/",
+    origin: "https://sag-assignment-front.vercel.app",
   })
 );
 
